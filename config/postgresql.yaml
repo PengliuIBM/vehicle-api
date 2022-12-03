@@ -30,7 +30,8 @@ spec:
     spec:
       initContainers:
       - name: remove-lost-found
-        image: busybox
+        #image: busybox
+        image: harbor.h2o-4-2010.h2o.vmware.com/library/busybox:latest
         command:
         - sh
         - -c
